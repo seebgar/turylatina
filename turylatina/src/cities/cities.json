@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Bogotá DC",
+		"image": "https://c1.staticflickr.com/5/4335/36415484834_b2ae1f40f3_b.jpg",
+		"price": 215999,
+		"dpt": "La Atenas Suramericana"
+	},
+	{
+		"name": "Cartagena de Indias",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Street_in_Cartagena%2C_Colombia.jpg",
+		"price": 299999,
+		"dpt": "La Ciudad Amurallada"
+	},
+	{
+		"name": "Cali",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Calle_de_La_Escopeta%2C_Cali%2C_Colombia_01.jpg",
+		"price": 149999,
+		"dpt": "La Capital Mundial de la Salsa"
+	},
+	{
+		"name": "Medellín",
+		"image": "https://www.themasculinetraveler.com/wp-content/uploads/2017/02/Medellin-Columbia.jpg",
+		"price": 399999,
+		"dpt": "La Ciudad de la Eterna Primavera"
+	},
+	{
+		"name": "Santa Marta",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/38/El_Rodadero%2C_Santa_Marta%2C_Colombia.jpg",
+		"price": 299999,
+		"dpt": "La Perla de América"
+	},
+	{
+		"name": "Barranquilla",
+		"image": "https://cdn.colombia.com/images/turismo/sitios-turisticos/barranquilla/barranquilla.jpg",
+		"price": 99999,
+		"dpt": "La Puerta de Oro"
+	}
+]

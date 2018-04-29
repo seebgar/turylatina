@@ -1,9 +1,9 @@
-$('#example2').progress({
-  percent: 5
+
+$('#rangestart').calendar({
+  type: 'date',
+  endCalendar: $('#rangeend')
 });
-
-
-$('.ui.rating')
-  .rating()
-;
-
+$('#rangeend').calendar({
+  type: 'date',
+  startCalendar: $('#rangestart')
+});
