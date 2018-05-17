@@ -7,7 +7,7 @@
 
 	<div class="ui two stackable cards" ng-controller="cityController">
 
-		<div class="ui raised fluid card" ng-repeat="city in cities | orderBy: 'name'">
+		<div class="ui raised fluid card" ng-repeat="city in cities | orderBy: 'name' | filter: string">
 			<div class="image">
 				<img src="{{city.image}}" style="min-height: 25em; max-height: 25em;">
 			</div>

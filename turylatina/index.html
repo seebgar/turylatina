@@ -10,10 +10,13 @@
 
 	<title>TuryLatina</title>
 
+    <!-- SEMANTIC UI -->
 	<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
 
+    <!-- JQUERY -->
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 
+    <!-- SEMANTIC UI JS  -->
 	<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
 
 	<!-- ICONS -->
@@ -41,8 +44,7 @@
 
 		<div id="main" class="ui text menu right floated" style="padding: 1em; padding-right: 5em;">
 			<a class="item" style="color: white; font-size: 20px">Home</a>
-			<a class="item" style="color: white; font-size: 20px" ui-sref="cities">Link</a>
-			<a class="item" style="color: white; font-size: 20px">Destinations</a>
+			<a class="item" style="color: white; font-size: 20px" href="#destinations">Destinations</a>
 			<a class="item" style="color: white; font-size: 20px">Contact us</a>
 			<a class="item" style="color: white; font-size: 20px">Sign up</a>
 		</div>
@@ -53,10 +55,9 @@
 
 			<div class="ui category search" style="width: 100%; margin: auto;">
 				<div class="ui icon input" style="width: 100%; margin: auto;">
-					<input type="text" placeholder="Search your destination...">
+					<input type="text" placeholder="Search your destination..." ng-model="string">
 					<i class="search icon"></i>
 				</div>
-				<div class="results"></div>
 			</div>
 
 			<br/>
@@ -73,7 +74,7 @@
 
 
 
-	<div class="cities">
+	<div class="cities" id="destinations" >
 		<div class="ui container">
 			<div ui-view="cities"></div>
 		</div>
@@ -87,7 +88,7 @@
 
 	<div class="reservation">
 		<div class="ui text container">
-			<div class="ui form" style="margin: auto; padding: 15em 5em;">
+			<div class="ui form" style="margin: auto; padding: 8em 5em;">
 
 				<h1 style="font-weight: 300; font-family: 'Roboto'; color: white;">Search your flight</h1>
 
@@ -167,7 +168,7 @@
 			</div>
 		</div>
 		
-		<div class="ui middle aligned center aligned grid" style="padding-top: 15em;">
+		<div class="ui middle aligned center aligned grid" style="padding-top: 8em;">
 			<div class="column" style="color: white;">
 				<i class="ion-social-facebook" style="color: white; font-size: 30px;"></i>
 			</div>
